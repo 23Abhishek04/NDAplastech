@@ -63,7 +63,7 @@ const BlogPage = () => {
     <div className="min-h-screen px-4 py-12 bg-gradient-to-r from-purple-50 via-white to-purple-50">
       <div className="max-w-5xl mx-auto">
         {/* Header */}
-        <h1 className="mb-8 text-4xl font-bold text-center text-purple-800">
+        <h1 className="mb-8 text-4xl font-bold text-center text-black">
           User Blogs
         </h1>
 

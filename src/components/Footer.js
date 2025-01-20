@@ -4,7 +4,7 @@ import rightlogo from "./assest/rightlogo.png";
 
 const Footer = () => {
   return (
-    <footer className="text-white shadow-lg bg-gradient-to-r from-custom-blue-light via-custom-blue-mid to-custom-blue-dark">
+    <footer className="text-white shadow-lg bg-gradient-to-r from-blue-600 via-blue-800 to-blue-950">
       <div className="px-4 py-8 mx-auto max-w-7xl md:px-8">
         {/* Top Section */}
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4">

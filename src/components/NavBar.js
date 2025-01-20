@@ -12,45 +12,47 @@ const Navbar = () => {
       {/* Top Header Section */}
       <div className="w-full bg-white">
         {/* Top Bar */}
-        <div className="flex items-center justify-between px-4 space-x-4 bg-blue-950 h-11">
-          {/* Social Media Buttons */}
-          <div className="items-center hidden space-x-4 md:flex">
-            <a
-              href="https://www.facebook.com/profile.php?id=61553223065692"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-2 text-white bg-blue-600 rounded-3xl hover:bg-blue-700"
-            >
-              <i className="fab fa-facebook-f"></i>
-            </a>
-            <a
-              href="https://www.linkedin.com/company/nda-plastech/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-2 text-white bg-blue-800 rounded-3xl hover:bg-blue-900"
-            >
-              <i className="fab fa-linkedin-in"></i>
-            </a>
-            <a
-              href="https://www.instagram.com/ndaplastech2/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-2 text-white bg-pink-600 rounded-3xl hover:bg-pink-700"
-            >
-              <i className="fab fa-instagram"></i>
-            </a>
-          </div>
+        <div className="flex justify-between w-full h-11">
+          <div className="w-8/12 h-4 bg-blue-950"></div>
+          <div className="flex items-center justify-around w-5/12 pl-10 bg-blue-950 h-11">
+            <div className="items-center hidden space-x-4 md:flex">
+              <a
+                href="https://www.facebook.com/profile.php?id=61553223065692"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2 text-white bg-blue-600 rounded-3xl hover:bg-blue-700"
+              >
+                <i className="fab fa-facebook-f"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/company/nda-plastech/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2 text-white bg-blue-800 rounded-3xl hover:bg-blue-900"
+              >
+                <i className="fab fa-linkedin-in"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/ndaplastech2/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2 text-white bg-pink-600 rounded-3xl hover:bg-pink-700"
+              >
+                <i className="fab fa-instagram"></i>
+              </a>
+            </div>
 
-          {/* Contact Info */}
-          <div className="items-center hidden space-x-4 md:flex">
-            <span className="flex items-center space-x-2">
-              <i className="text-orange-700 fa-solid fa-phone"></i>
-              <span className="text-white">+91 9923101417</span>
-            </span>
-            <span className="flex items-center space-x-2">
-              <i className="text-orange-700 fa-solid fa-envelope"></i>
-              <span className="text-white">enquiry@ndaplastech.com</span>
-            </span>
+            {/* Contact Info */}
+            <div className="items-center hidden space-x-4 md:flex">
+              <span className="flex items-center space-x-2">
+                <i className="text-orange-700 fa-solid fa-phone"></i>
+                <span className="text-white">+91 9923101417</span>
+              </span>
+              <span className="flex items-center space-x-2">
+                <i className="text-orange-700 fa-solid fa-envelope"></i>
+                <span className="text-white">enquiry@ndaplastech.com</span>
+              </span>
+            </div>
           </div>
         </div>
 
@@ -58,7 +60,11 @@ const Navbar = () => {
         <div className="flex flex-wrap items-center justify-between px-4 py-2 md:flex-nowrap">
           {/* Logo Section */}
           <div className="relative ml-2 overflow-hidden md:ml-16">
-            <img src={NDA} alt="NDA Logo" className="h-16 mt-1 w-36 md:w-48 md:h-20" />
+            <img
+              src={NDA}
+              alt="NDA Logo"
+              className="h-16 mt-1 w-36 md:w-48 md:h-20"
+            />
             <div className="font-sans text-sm font-bold md:text-base whitespace-nowrap animate-slide">
               Innovative Products. Global Needs
             </div>

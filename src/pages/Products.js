@@ -86,7 +86,7 @@ const Products = () => {
   return (
     <div className="py-12 bg-gray-50">
       <div className="container mx-auto">
-        <h1 className="mb-6 text-4xl font-bold text-center text-custom-orange">Our Products</h1>
+        <h1 className="mb-6 text-4xl font-bold text-center text-black">Our Products</h1>
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {products.map((product, index) => (
             <div 

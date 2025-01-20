@@ -15,11 +15,11 @@ const HeroSection = () => {
 
       {/* Content Overlay */}
       <div className="relative flex items-center justify-center w-auto h-full bg-black bg-opacity-50 md:justify-start">
-        <div className="relative px-6 py-8 ml-4 md:ml-20 md:w-160 md:pt-7">
+        <div className="relative py-8 ml-4 md:ml-20 md:w-160 md:pt-7">
           <h1 className="mb-4 text-3xl font-bold text-center text-white md:text-5xl md:mb-6 md:text-left">
             Transforming Ideas into Innovative Solutions
           </h1>
-          <p className="mb-6 text-base text-center text-white md:text-lg md:text-left">
+          <p className="mb-6 text-base text-center text-white  md:text-lg md:text-left">
             Empowering industries with cutting-edge plastic technologies that
             drive sustainability and efficiency. Discover our range of
             customized solutions tailored to meet your needs.

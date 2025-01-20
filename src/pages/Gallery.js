@@ -9,7 +9,7 @@ const Gallery = () => {
     <div className="min-h-screen py-12 bg-gradient-to-r from-blue-50 via-white to-blue-50">
       <div className="max-w-6xl px-4 mx-auto">
         {/* Header */}
-        <h1 className="mb-8 text-4xl font-bold text-center text-custom-orange">
+        <h1 className="mb-8 text-4xl font-bold text-center text-black">
           Our Gallery
         </h1>
         <p className="mb-12 text-center text-gray-600">
